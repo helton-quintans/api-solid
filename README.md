@@ -1,6 +1,6 @@
 # App
 
-# Wellhub yle app
+# Wellhub style app
 
 ## RFs (Requisitos funcionais)
 
