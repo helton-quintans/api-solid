@@ -1,4 +1,6 @@
-//Todas as operações de banco de dados pelo repository, para não expor o prisma diretamente para o controller
+//Todas as operações de banco de dados pelo passam repository, para não expor o prisma diretamente para o controller
+// o Repository é uma camada de abstração da persistencia de dados entre o controller e o banco de dados, 
+// para que o controller não precise conhecer a implementação do banco de dados, e sim apenas a interface do repository
 import { prisma } from '@/lib/prisma';
 import { Prisma, User } from '@prisma/client';
 
